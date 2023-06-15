@@ -34,7 +34,6 @@ body {
     width: 80%;
     padding: 8px 10px;
     border-radius: 3px;
-   
   }
   
   #submit {
@@ -42,10 +41,9 @@ body {
     background-color: #333;
     color: #fff;
     border: none;
-        cursor: pointer;
+    cursor: pointer;
   }
-
-
+  
   .deleteBtn {
     padding: 10px 20px;
     background-color: #333;
@@ -54,7 +52,7 @@ body {
     cursor: pointer;
   }
   
-  #carListDiv {
+  #carList {
     margin-top: 20px;
     border-top: 1px solid #ccc;
     padding-top: 20px;
@@ -70,22 +68,10 @@ body {
     color: #555;
   }
   
-    /*
-  #carList {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    color: #555;
-  }
-  */
   #carList li {
     list-style: none;
     padding: 5px 0;
     border-bottom: 1px solid #ccc;
     color: #333;
- 
-
   }
+  
