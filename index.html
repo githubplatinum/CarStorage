@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Car Catalog</title>
+</head>
+<body>
+
+    <h1>Car Catalog</h1>
+
+    <div id="main">
+
+     
+        <form onsubmit="storeCar(event)">
+            <label for="brand">Enter brand</label><br>
+             <input type="text" id="name" >   <br>
+
+             <label for="model">Enter model</label><br>
+             <input type="text" id="brand" >   <br>
+             
+             <label for="year">Enter year</label><br>
+             <input type="text" id="year" > <br>  
+
+             <label for="color">Enter color</label><br>
+             <input type="text" id="color" >  <br> 
+             <button type ="submit" id="submit" onclick="displayCarList()">Add new Car</button>
+
+        </form>
+       
+        <div id="carListDiv">
+
+            <ul id="carListHead">
+            <li>Make</li>
+            <li>Model</li>
+            <li>Year</li>
+            <li>Color</li>
+                 </ul>
+             <ul id="carList">
+    
+        </ul>
+    </div>
+
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
