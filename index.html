@@ -16,16 +16,16 @@
      
         <form onsubmit="storeCar(event)">
             <label for="brand">Enter brand</label><br>
-             <input type="text" id="name" >   <br>
+             <input type="text" id="name" required>   <br>
 
              <label for="model">Enter model</label><br>
-             <input type="text" id="brand" >   <br>
+             <input type="text" id="brand" required>   <br>
              
              <label for="year">Enter year</label><br>
-             <input type="text" id="year" > <br>  
+             <input type="text" id="year" required> <br>  
 
              <label for="color">Enter color</label><br>
-             <input type="text" id="color" >  <br> 
+             <input type="text" id="color" >required  <br> 
              <button type ="submit" id="submit" onclick="displayCarList()">Add new Car</button>
 
         </form>

@@ -51,27 +51,34 @@ body {
     border: none;
     cursor: pointer;
   }
-  
-  #carList {
+
+  #carListDiv {
     margin-top: 20px;
-    border-top: 1px solid #ccc;
-    padding-top: 20px;
-  }
-  
-  #carListHead {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    font-weight: bold;
-    color: #555;
-  }
-  
-  #carList li {
-    list-style: none;
-    padding: 5px 0;
-    border-bottom: 1px solid #ccc;
-    color: #333;
-  }
+}
+
+#carTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#carTable th,
+#carTable td {
+    padding: 8px;
+    text-align: left;
+}
+
+#carTable th {
+    background-color: #333;
+    color: #fff;
+}
+
+#carTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#carTable tbody tr:hover {
+    background-color: #ddd;
+}
+
+
   
