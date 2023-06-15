@@ -67,11 +67,3 @@ body {
     font-weight: bold;
     color: #555;
   }
-  
-  #carList li {
-    list-style: none;
-    padding: 5px 0;
-    border-bottom: 1px solid #ccc;
-    color: #333;
-  }
-  
